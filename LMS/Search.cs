@@ -23,5 +23,10 @@ namespace LMS
             action.Show();
             this.Hide();
         }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

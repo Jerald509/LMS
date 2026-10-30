@@ -19,35 +19,6 @@ namespace LMS
 
         private void bntSubmit(object sender, EventArgs e)
         {
-            if (SearchRadio.Checked){
-                Search search = new Search();
-                search.Show();
-                this.Hide();
-            }
-            if (ReturnRadio.Checked)
-            {
-                Return_Book return_Book = new Return_Book();
-                return_Book.Show();
-                this.Hide() ;
-            }
-            if(CatRadio.Checked)
-            {
-                Manage_Category manage_Category = new Manage_Category();
-                manage_Category.Show();
-                this.Hide();
-            }
-            if (AddRadios.Checked)
-            {
-                ManageBook manageBook = new ManageBook();
-                manageBook.Show();
-                this.Hide();
-            }
-            if (PassRadios.Checked)
-            {
-                ChangePassword changePassword = new ChangePassword();
-                changePassword.Show();
-                this.Hide();
-            }
 
         }
 
@@ -58,6 +29,39 @@ namespace LMS
             this.Hide();
         }
 
-     
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Search search = new Search();
+            search.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Return_Book return_Book = new Return_Book();
+            return_Book.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Manage_Category manage_Category = new Manage_Category();
+            manage_Category.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ManageBook manageBook = new ManageBook();
+            manageBook.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ChangePassword changePassword = new ChangePassword();
+            changePassword.Show();
+            this.Hide();
+        }
     }
 }

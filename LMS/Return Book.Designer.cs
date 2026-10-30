@@ -94,6 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::LMS.Properties.Resources.cozy_library_interior_with_books_lined_on_shelves_photo;
             this.ClientSize = new System.Drawing.Size(413, 207);
             this.Controls.Add(this.Back1);
             this.Controls.Add(this.EnrollTxt);

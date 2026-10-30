@@ -86,7 +86,6 @@
             // Loginbutton
             // 
             this.Loginbutton.BackColor = System.Drawing.Color.Transparent;
-            this.Loginbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Loginbutton.BackgroundImage")));
             this.Loginbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Loginbutton.Font = new System.Drawing.Font("Book Antiqua", 20.25F, System.Drawing.FontStyle.Bold);
             this.Loginbutton.ForeColor = System.Drawing.Color.Transparent;
@@ -103,7 +102,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Playbill", 27.75F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(121, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(285, 38);
@@ -152,9 +151,10 @@
             this.Controls.Add(this.UsrTxt);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = resources.GetString("$this.Text");
             ((System.ComponentModel.ISupportInitialize)(this.ShowPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HidePass)).EndInit();
             this.ResumeLayout(false);

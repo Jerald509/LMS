@@ -59,5 +59,15 @@ namespace LMS.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cozy_library_interior_with_books_lined_on_shelves_photo {
+            get {
+                object obj = ResourceManager.GetObject("cozy-library-interior-with-books-lined-on-shelves-photo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

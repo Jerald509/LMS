@@ -77,6 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::LMS.Properties.Resources.cozy_library_interior_with_books_lined_on_shelves_photo;
             this.ClientSize = new System.Drawing.Size(449, 153);
             this.Controls.Add(this.Back3);
             this.Controls.Add(this.Category);
